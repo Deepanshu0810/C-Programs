@@ -1,13 +1,13 @@
 #include<stdio.h>
 
 int main(){
-    float sal,da,hra;
+    float sal,ta,hra;
     printf("Enter the basic salary :");
     scanf("%f",&sal);
-    da=0.4*sal;
-    hra=0.2*sal;
-    printf("The dearness allowance is %f\n",da);
+    ta=0.1*sal;
+    hra=0.3*sal;
+    printf("The travelling allowance is %f\n",ta);
     printf("The house rent allowance is %f\n",hra);
-    printf("The gross salary is %f\n",sal+da+hra);
+    printf("The gross salary is %f\n",sal+ta+hra);
     return 0;
 }
