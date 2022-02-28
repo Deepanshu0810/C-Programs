@@ -8,5 +8,6 @@ int main(){
     printf("The curved surface area of cube is : %f unit square\n",4*pow(a,2));
     printf("The total surface area of cube is : %f unit square\n",6*pow(a,2));
     printf("The volume of the cube is : %f unit cube\n",pow(a,3));
+    printf("\n");
     return 0;
 }

@@ -18,7 +18,7 @@ int main(){
         {
             printf("Roots are imagenary\n");
             float realroot1=(-1*b)/(2*a);
-            float imgroot1=(sqrt(abs(d)))/(2*8);
+            float imgroot1=(sqrt(abs(d)))/(2*a);
             float imgroot2=(sqrt(abs(d)))/(2*a);
             printf("root 1= %f+i%f\n",realroot1,imgroot1);
             printf("root 2= %f-i%f\n",realroot1,imgroot2);

@@ -9,14 +9,14 @@ int main(){
     scanf("%d",&c);
     if ((a>=b) & (a>=c))
     {
-        printf("The greatest of all three numbers is %d",a);
+        printf("The greatest of all three numbers is %d\n\n",a);
     }
     else if ((b>=a) & (b>=c))
     {
-        printf("The greatest of all three numbers is %d",b);
+        printf("The greatest of all three numbers is %d\n\n",b);
     }
     else{
-        printf("The greatest of all three numbers is %d",c);
+        printf("The greatest of all three numbers is %d\n\n",c);
     }
     
     

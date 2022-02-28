@@ -9,5 +9,6 @@ int main(){
     printf("The travelling allowance is %f\n",ta);
     printf("The house rent allowance is %f\n",hra);
     printf("The gross salary is %f\n",sal+ta+hra);
+    printf("\n");
     return 0;
 }
