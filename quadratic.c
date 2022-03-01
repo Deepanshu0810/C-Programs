@@ -6,7 +6,7 @@ int main(){
     int a,b,c;
     float d;
     printf("ax^2 + bx + c");
-    printf("Enter the value of a,b and c for the above equation :\n");
+    printf("\nEnter the value of a,b and c for the above equation :\n");
     scanf("%d %d %d",&a,&b,&c);
     if (a==0)
     {

@@ -1,12 +1,16 @@
 #include<stdio.h>
 int main(){
-    int a,b,c;
-    printf("Enter the value of a:");
-    scanf("%d",&a);
-    printf("Enter the value of b:");
-    scanf("%d",&b);
-    printf("Enter the value of c:");
-    scanf("%d",&c);
-    printf("The average of these numbers is %f",(float)(a+b+c)/3);
-    return 0;
+    int n,i;
+    float sum=0;
+    printf("How many numbers do you want to enter :");
+    scanf("%d",&n);
+    printf("\nEnter the numbers\n");
+    for ( i = 0; i < n; i++)
+    {
+        int temp;
+        scanf("%d",&temp);
+        sum+=temp;
+    }
+    printf("\nThe average of the numbers is :%.2f",sum/n);
+    
 }

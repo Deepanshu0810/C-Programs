@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int factorial(a)
+int factorial(int a)
 {
     if (a>1)
     {
